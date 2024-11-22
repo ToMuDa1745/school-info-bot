@@ -1,0 +1,134 @@
+{
+    "intents": [ 
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "hi", "hello", "Hello", "Hey", "hey", "Good morning", "good evening", "greetings", "Greetings", "Good afternoon"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?", "Hey! How can I assist?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "bye", "Goodbye", "Have a great day", "See you later"],
+            "responses": ["Goodbye! Have a great day!", "See you later!", "Bye! Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "thanks", "Thank you", "thank you", "dankie"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!"]
+        },
+        {
+            "tag": "school_info",
+            "patterns": ["Tell me about the schools", "What schools do you have?", "School information", "Give me details about the schools"],
+            "responses": [
+                "We have the following schools: Yemurai Primary School, Mutoko High School, Chindunduma 2 High School, and Cheunje High School. What would you like to know about a specific school?",
+                "Here are our schools: Yemurai Primary School, Mutoko High School, Chindunduma 2 High School, and Cheunje High School. Please specify which one you're interested in."
+            ]
+        },
+        {
+            "tag": "school_details",
+            "patterns": ["Tell me about Yemurai Primary School", "Details of Mutoko High School", "Information on Chindunduma 2 High School", "Tell me about Cheunje High School"],
+            "responses": [
+                "Yemurai Primary School is located in Dzivarasekwa Extension, Harare. The principal is John Doe and their motto is 'Learning is Fun'. They offer programs from Grade 1-7.",
+                "Mutoko High School is in Mutoko, led by Principal Peter Kadzima, with a motto of 'Excellence in Education'. They offer programs from Form 1-6.",
+                "Chindunduma 2 High School in Bindura is managed by Mr. Kamota. Their motto is 'Arise and shine' and they offer various programs including STEM and Arts.",
+                "Cheunje High School, located in Murehwa, has Mr. Tonde as its principal. Their motto is 'Learning is Fun', and they provide programs from Form 1-7."
+            ]
+        }
+    ],
+    "schools": [
+        {
+            "name": "Yemurai Primary School",
+            "address": "Dzivarasekwa Extension, Harare",
+            "principal": "John Doe",
+            "motto": "Learning is Fun",
+            "contact": {
+                "School Headmaster": { 
+                    "phone": "123-456-7890",
+                    "email": "info@yemuraiprimary.edu"
+                },
+                "Administration Desk": { 
+                    "phone": "123-456-7890",
+                    "email": "info@admin.yemurai.edu"
+                }
+            },
+            "programs": ["Grade 1-7", "Arts", "Sports"],
+            "Practical": {
+                "Fashion": "For Ordinary Level",
+                "Computer Science": "From Form 1 to Form 6"
+            },
+            "newsletter": "Yemurai Monthly",
+            "events": ["Sports Day", "Open Day"] 
+        },
+        {
+            "name": "Mutoko High School",
+            "address": "Mutoko",
+            "principal": "Peter Kadzima",
+            "motto": "Excellence in Education",
+            "contact": {
+                "phone": "987-654-3210",
+                "email": "info@mutokohigh.edu"
+            },
+            "programs": ["Form 1-6", "STEM", "Commercials", "Arts"],
+            "newsletter": "Mutoko Times",
+            "events": ["Annual Sports", "Science Fair"]
+        },
+        {
+            "name": "Chindunduma 2 High School",
+            "address": "Bindura",
+            "principal": "Mr. Kamota",
+            "motto": "Arise and shine",
+            "contact": {
+                "School Headmaster": { 
+                    "phone": "123-456-7890",
+                    "email": "info@chindunduma2.edu"
+                },
+                "Administration Desk": { 
+                    "phone": "123-456-7890",
+                    "email": "info@admin.yemurai.edu"
+                }
+            },
+            "programs": ["Form 1-7", "STEM", "Commercials", "Arts", "Sports"],
+            "Practical": {
+                "Fashion": "For Ordinary Level",
+                "Computer Science": "From Form 1 to Form 6"
+            },
+            "newsletter": "Chindunduma Monthly news",
+            "events": ["Sports Day", "Open Day"] 
+        },
+        {
+            "name": "Cheunje High School",
+            "address": "Murehwa",
+            "principal": "Mr. Tonde",
+            "motto": "Learning is Fun",
+            "contact": {
+                "School Headmaster": { 
+                    "phone": "123-456-7890",
+                    "email": "info@cheunjehigh.edu"
+                },
+                "Administration Desk": { 
+                    "phone": "123-456-7890",
+                    "email": "admin@cheunjehigh.edu"
+                }
+            },
+            "programs": ["Form 1-7", "Commercials", "Arts", "Sports"],
+            "Practical": {
+                "Fashion": "For Ordinary Level",
+                "Computer Science": "From Form 1 to Form 6",
+                "Agriculture": "From Form 1 to Form 4"
+            },
+            "newsletter": "Cheunje Monthly",
+            "events": ["Sports Day", "Open Day"] 
+        }
+    ],
+    "administration": {
+        "school_hours": {
+            "description": "The school operates from 8:00 AM to 3:00 PM, Monday to Friday.",
+            "calendar": {
+                "important_dates": [
+                    "2024-11-01: End of Quarter 1",
+                    "2024-11-25: Thanksgiving Break Begins",
+                    "2024-12-20: Winter Break Begins"
+                ]
+            }
+        }
+    }
+}
