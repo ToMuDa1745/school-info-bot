@@ -1,7 +1,4 @@
- <!-- Embedded CSS for Styling -->
-    <style>
-        /* Global Reset */
-        * {
+{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -158,4 +155,3 @@
             font-size: 24px;
             color: #0078D4;
         }
-    </style>
